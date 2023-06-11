@@ -1,16 +1,16 @@
-* A custom hook to add and get values into and form the local storage respectively.
+# A custom hook to add and get values into and form the local storage respectively.
 
-** How to use ? 
+## How to use ? 
 
 A hook named as 'useLocalStorage()' has been created which will set and get values to and from the localstorage.
 
-*** usecases
+### usecases
 
-1. ** set data to local storage **
+1. **set data to local storage**
 
 Just pass your key value pairs as an object of arrays, the hook will parse over the array and one by one set key value pairs to the local storage.
 
-** Syntax **
+**Syntax**
 
 ``` 
  const userInfo = [
@@ -23,11 +23,11 @@ Just pass your key value pairs as an object of arrays, the hook will parse over 
 
 ```
 
-2. ** get data from local storage **
+2. **get data from local storage**
 
   Returns the key value pairs from the local storage as an array of objets.
 
-  ** Syntax **
+  **Syntax**
 
   ```
   const localStorageValues = useLocalStorage();
